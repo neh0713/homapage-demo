@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="header-container">
+        <div class="header-image"></div>
+        <p class="we-escalate-transfer">We escalate transfer efficiency<br />and productivity</p>
+        <div class="logo-wall">
+          <div class="logos">
+            <div class="logo">
+              <div class="text-wrapper">Blooming</div>
+              <div class="layer"><img class="vector" src="img/vector.svg" /></div>
+            </div>
+            <div class="div">
+              <div class="group"></div>
+              <div class="div-wrapper"><div class="text-wrapper-2">BuildRight</div></div>
+            </div>
+            <div class="logo-2">
+              <div class="subtract-wrapper"><img class="subtract" src="img/subtract.svg" /></div>
+              <div class="text-wrapper-3">Flowbot</div>
+            </div>
+            <div class="group-wrapper">
+              <div class="group-2">
+                <div class="expor">EXPOR</div>
+                <img class="img" src="img/image.svg" />
+              </div>
+            </div>
+            <img class="logo-3" src="img/logo-05.svg" />
+          </div>
+        </div>
+      </div>
+      <div class="get-more-done">
+        <header class="header">
+          <p class="get-more-done-in-a">Get More Done In A Week</p>
+          <p class="p">
+            Maximize your productivity with smarter tools designed to streamline your workflow to automate tasks, stay
+            organized
+          </p>
+        </header>
+        <div class="bento-container">
+          <div class="row">
+            <div class="bento">
+              <div class="bento-content">
+                <div class="text-wrapper-4">2x</div>
+                <div class="text-wrapper-5">Double Your Productivity</div>
+              </div>
+            </div>
+            <div class="bento">
+              <div class="bento-content-2"><div class="text-wrapper-5">Efficiency Increase Per Transfer</div></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="bento-content-wrapper">
+              <div class="bento-content-3"><div class="text-wrapper-5">Centralize Your Finances</div></div>
+            </div>
+            <div class="bento">
+              <div class="bento-content">
+                <img class="element" src="img/130.svg" />
+                <div class="text-wrapper-5">More Activity</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="reliable-app-section">
+        <div class="div-wrapper-2"><div class="text-wrapper-6">The Most Reliable App</div></div>
+        <div class="section-content">
+          <div class="benefit-container">
+            <div class="benefit-image"></div>
+            <div class="benefit-information">
+              <p class="text-wrapper-7">Scale Your Team, Not Your Card Expenses</p>
+              <p class="text-wrapper-8">
+                Issue virtual and physical cards at no additional cost to support teams of any size.
+              </p>
+            </div>
+          </div>
+          <div class="benefit-container">
+            <div class="benefit-image-2"></div>
+            <div class="benefit-information">
+              <p class="text-wrapper-7">Effortless Paper Tracking, Mobile Convenience</p>
+              <p class="text-wrapper-8">
+                Get precise control—at scale—with the ability to lock any card and restrict any type of spend.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="image-breaker"><div class="image"></div></div>
+      <div class="first-class-software">
+        <div class="section-header">
+          <div class="div-wrapper-2"><div class="first-class-software-2">First Class Software</div></div>
+          <p class="text-wrapper-9">
+            Get real-time insights, seamless transactions, and advanced tools to manage your wealth effortlessly.
+          </p>
+        </div>
+        <div class="icon-section">
+          <div class="icon-information">
+            <div class="icon-container"></div>
+            <div class="text-wrapper-10">Safe Storage</div>
+          </div>
+          <div class="icon-information">
+            <div class="icon-container-2"></div>
+            <div class="text-wrapper-10">Secure</div>
+          </div>
+          <div class="icon-information">
+            <div class="icon-container-3"></div>
+            <div class="text-wrapper-10">Earn Interest</div>
+          </div>
+          <div class="icon-information">
+            <div class="icon-container-4"></div>
+            <div class="text-wrapper-10">Family Plans</div>
+          </div>
+        </div>
+      </div>
+      <div class="CTA-section">
+        <div class="CTA-content">
+          <div class="CTA-copy">
+            <p class="text-wrapper-11">Download Etran and manage everything from your phone.</p>
+            <a href="figma.com/sites" target="_blank" rel="noopener noreferrer"
+              ><div class="button"><div class="text-wrapper-12">Get started</div></div></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
