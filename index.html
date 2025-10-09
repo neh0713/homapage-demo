@@ -1,2 +1,116 @@
-<!DOCTYPE html><html><head><link href="https://fonts.googleapis.com/css?family=Manrope&display=swap" rel="stylesheet" /><link href="https://fonts.googleapis.com/css?family=Abhaya+Libre+Medium&display=swap" rel="stylesheet" /><link href="https://fonts.googleapis.com/css?family=Geist&display=swap" rel="stylesheet" /><link href="https://fonts.googleapis.com/css?family=Radio+Canada+Big&display=swap" rel="stylesheet" /><link href="https://fonts.googleapis.com/css?family=Saira&display=swap" rel="stylesheet" /><link href="./css/main.css" rel="stylesheet" /><title>Document</title></head><body><div class="v28_102"><div class="v28_103"><div class="v28_104"></div><span class="v28_105">We escalate transfer efficiency and productivity</span><div class="v28_106"><div class="v28_107"><div class="v28_108"><span class="v28_109">Blooming</span><div class="v28_110"><div class="v28_111"></div></div></div><div class="v28_112"><div class="v28_113"><div class="name"></div></div><div class="v28_117"><span class="v28_118">BuildRight</span></div></div><div class="v28_119"><div class="v28_120"><div class="name"></div></div><span class="v28_124">Flowbot</span></div><div class="v28_125"><div class="v28_126"><span class="v28_127">Expor</span><div class="name"></div></div></div><div class="v28_132"><div class="v28_133"><div class="v28_134"><div class="v28_135"></div><div class="v28_136"></div><div class="v28_137"></div><div class="v28_138"></div></div><div class="v28_139"></div><div class="v28_140"></div></div></div></div></div></div><div class="v28_141"><div class="v28_142"><span class="v28_143">Get more done in a week</span><span class="v28_144">Maximize your productivity with smarter tools designed to streamline your workflow to automate tasks, stay organized</span></div><div class="v28_145"><div class="v28_146"><div class="v28_147"><div class="v28_148"><span class="v28_149">2x</span><span class="v28_150">Double Your Productivity</span></div></div><div class="v28_151"><div class="v28_152"><div class="v28_153"></div><span class="v28_154">Efficiency Increase Per Transfer</span></div></div></div><div class="v28_155"><div class="v28_156"><div class="v28_157"><div class="v28_158"></div><span class="v28_159">Centralize Your Finances</span></div></div><div class="v28_160"><div class="v28_161"><div class="v28_162"></div><span class="v28_163">More Activity</span></div></div></div></div></div><div class="v28_164"><div class="v28_165"><span class="v28_166">The Most Reliable App</span></div><div class="v28_167"><div class="v28_168"><div class="v28_169"></div><div class="v28_170"><span class="v28_171">Scale Your Team, Not Your Card Expenses</span><span class="v28_172">Issue virtual and physical cards at no additional cost to support teams of any size.
-</span></div></div><div class="v28_173"><div class="v28_174"></div><div class="v28_175"><span class="v28_176">Effortless Paper Tracking, Mobile Convenience</span><span class="v28_177">Get precise control—at scale—with the ability to lock any card and restrict any type of spend.</span></div></div></div></div><div class="v28_178"><div class="v28_179"></div></div><div class="v28_180"><div class="v28_181"><div class="v28_182"><span class="v28_183">First class software</span></div><span class="v28_184">Get real-time insights, seamless transactions, and advanced tools to manage your wealth effortlessly.</span></div><div class="v28_185"><div class="v28_186"><div class="v28_187"></div><span class="v28_188">Safe Storage</span></div><div class="v28_189"><div class="v28_190"></div><span class="v28_191">Secure</span></div><div class="v28_192"><div class="v28_193"></div><span class="v28_194">Earn Interest</span></div><div class="v28_195"><div class="v28_196"></div><span class="v28_197">Family Plans</span></div></div></div><div class="v28_198"><div class="v28_199"><div class="v28_200"><span class="v28_201">Download Etran and manage everything from your phone.</span><div class="name"></div></div></div></div></div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Panera-style Splash</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        /* Olive green background and lemon accent close to the mock */
+        --bg: #586b1f;
+        --accent: #eef17a;
+        --white: #ffffff;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--white);
+        font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      }
+
+      .splash {
+        position: relative;
+        min-height: 100svh;
+        display: grid;
+        place-items: center;
+        overflow: hidden;
+      }
+
+      .logo {
+        text-align: center;
+        transform: translateY(-6svh);
+        user-select: none;
+      }
+
+      .logo .panera {
+        font-family: "Great Vibes", cursive;
+        font-weight: 400;
+        font-size: clamp(56px, 18vw, 150px);
+        line-height: 0.9;
+        color: var(--white);
+        text-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+      }
+
+      .logo .bread {
+        margin-top: 0.1em;
+        font-size: clamp(12px, 3.5vw, 22px);
+        text-transform: uppercase;
+        letter-spacing: 0.6em;
+        text-indent: 0.6em; /* counteract first-letter spacing shift */
+        opacity: 0.96;
+      }
+
+      /* Yellow burst marks on the right */
+      .burst {
+        position: absolute;
+        right: min(12vw, 100px);
+        top: 48%;
+        transform: translateY(-20%);
+        width: min(44vw, 460px);
+        height: auto;
+        color: var(--accent);
+        pointer-events: none;
+        filter: drop-shadow(0 2px 0 rgba(0, 0, 0, 0.04));
+      }
+
+      @media (max-width: 560px) {
+        .logo { transform: translateY(-4svh); }
+        .burst {
+          right: 8vw;
+          top: 44%;
+          width: 64vw;
+          transform: translateY(-10%);
+        }
+      }
+
+      @media (min-aspect-ratio: 4/3) {
+        /* On wider screens, keep the logo closer to center */
+        .logo { transform: translateY(-2svh); }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="splash" aria-label="Splash screen">
+      <!-- Accent petals -->
+      <svg class="burst" viewBox="-200 -200 400 400" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <g fill="currentColor" stroke="none">
+          <!-- Slightly varied sizes and angles to mimic organic marks -->
+          <ellipse rx="24" ry="12" transform="rotate(-40) translate(120 0)"></ellipse>
+          <ellipse rx="28" ry="13" transform="rotate(-15) translate(150 0)"></ellipse>
+          <ellipse rx="26" ry="12" transform="rotate(10) translate(165 0)"></ellipse>
+          <ellipse rx="30" ry="14" transform="rotate(35) translate(160 0)"></ellipse>
+          <ellipse rx="28" ry="13" transform="rotate(58) translate(140 0)"></ellipse>
+          <ellipse rx="25" ry="12" transform="rotate(80) translate(110 0)"></ellipse>
+          <ellipse rx="22" ry="11" transform="rotate(100) translate(85 0)"></ellipse>
+        </g>
+      </svg>
+
+      <!-- Logo copy -->
+      <div class="logo">
+        <div class="panera" aria-label="Panera">Panera</div>
+        <div class="bread" aria-hidden="true">Bread</div>
+      </div>
+    </main>
+  </body>
+</html>
